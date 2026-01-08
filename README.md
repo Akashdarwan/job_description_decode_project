@@ -1,153 +1,124 @@
-Skill Gap Detection & Employment Readiness
-📌 Project Overview
+# Skill Gap Detection & Employment Readiness
 
-Skill Gap Detection & Employment Readiness is a web-based application built using Python and Streamlit.
-The system analyzes a Job Description (JD) and a Resume (PDF) to identify:
+## 📌 Project Overview
 
-Required skills from the job description
+Skill Gap Detection & Employment Readiness is a web-based application built using Python and Streamlit.  
+The application analyzes a Job Description (JD) and a Resume (PDF) to identify skill gaps and calculate job readiness.
 
-Skills present in the candidate’s resume
+This project is mainly designed for students and freshers to understand how well their resume matches a job role and what skills they need to improve.
 
-Skill gaps (missing skills)
+---
 
-Overall job readiness score
+## 🎯 Key Features
 
-Downloadable PDF analysis report
+- Job Description analysis  
+- Resume upload (PDF)  
+- Required skills extraction  
+- Matched skills detection  
+- Missing skills identification  
+- Job readiness score  
+- Downloadable analysis report (PDF)  
+- Clean UI using custom CSS  
+- Reset option  
 
-This project is designed especially for students and freshers to understand how well their resume matches a job role and what skills they need to learn.
+---
 
-🎯 Key Features
+## 🎨 UI & Typography Design
 
-📄 Job Description analysis
+The application uses custom CSS and Google Fonts to improve readability and user experience.
 
-📂 Resume upload (PDF)
+### Fonts Used
+- Headings: Poppins  
+- Body Text: Roboto  
 
-📌 Required skills extraction
+---
 
-✅ Matched skills detection
+## 📐 Font Size Structure
 
-❌ Missing skills identification
+- Main Heading: 36px (Poppins)  
+- Section Headings: 20–24px (Poppins)  
+- Subtitles & Helper Text: 14–16px (Roboto)  
+- Body Text: 14px (Roboto)  
+- Buttons: 15–16px (Poppins)  
+- Input Fields: 14px (Roboto)  
 
-📈 Job readiness score
+This font hierarchy ensures clear visual structure and a professional appearance.
 
-📥 Downloadable analysis report (PDF)
+---
 
-🎨 Clean UI using custom CSS
+## 🛠️ Technologies Used
 
-🔄 Reset option
+- Frontend: Streamlit + Custom CSS  
+- Backend: Python  
+- PDF Parsing: PyPDF2  
+- PDF Report Generation: ReportLab  
 
-🛠️ Technologies Used
+---
 
-Frontend: Streamlit + Custom CSS
+## 📁 Project Structure
 
-Backend: Python
-
-PDF Processing: PyPDF2
-
-PDF Report Generation: ReportLab
-
-📁 Project Structure
 jobproject/
 │
-├── app.py
-├── requirements.txt
-├── Backend_Developer_Junior_Resume.pdf
-├── README.md
+├── app.py  
+├── requirements.txt  
+├── Backend_Developer_Junior_Resume.pdf  
+├── README.md  
 
-⚙️ Installation & Setup
-1️⃣ Install Python
+---
 
-Make sure Python 3.9+ is installed.
+## ⚙️ Installation & Setup
 
-2️⃣ Install Required Libraries
-
-Run the following command in terminal:
-
+### Step 1: Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Application
+### Step 2: Run the Application
+```bash
 streamlit run app.py
+```
 
+---
 
-The application will open automatically in your browser.
+## 🧪 How to Use the Application
 
-🧪 How to Use the Application
+1. Paste the Job Description  
+2. Upload the Resume (PDF)  
+3. Click Analyze  
+4. View required skills, matched skills, missing skills, and job readiness score  
+5. Download the Skill Gap Analysis Report (PDF)  
 
-Paste a Job Description in the input box
+---
 
-Click Choose a file and upload a resume (PDF)
+## 🚀 Future Enhancements
 
-Click Analyze
+- AI-based skill extraction  
+- Skill proficiency level detection  
+- Personalized learning roadmap  
+- Multiple resume comparison  
+- User profile and progress tracking  
 
-View:
+---
 
-Job overview
+## 🏆 Hackathon Note
 
-Required skills
+This project focuses on:
+- Real-world relevance  
+- Clean and simple UI  
+- Easy demonstration  
+- Practical problem-solving  
 
-Matched and missing skills
+---
 
-Job readiness score
+## 👥 Team Members
 
-Click Download Skill Gap Analysis Report (PDF)
+1. Chandan Gouda  
+2. Akash Darwan  
+3. Chetan Kumar  
+4. Hotur Gargeya Datta  
 
-📥 Sample Input Files
+---
 
-A sample resume PDF is included for testing:
+## ✅ Final Note
 
-Backend_Developer_Junior_Resume.pdf
-
-📊 Output
-
-On-screen analysis (skills & readiness)
-
-Downloadable PDF report containing:
-
-Job type
-
-Location
-
-Experience
-
-Required skills
-
-Matched skills
-
-Missing skills
-
-Readiness score
-
-🚀 Future Enhancements
-
-AI-based skill matching (NLP)
-
-Skill proficiency level detection
-
-Personalized learning roadmap
-
-Multiple resume comparison
-
-User login and progress tracking
-
-🎓 Use Case
-
-College students
-
-Freshers preparing for jobs
-
-Resume screening demonstration
-
-Hackathons and academic projects
-
-🏆 Hackathon Note
-
-This project focuses on practical problem-solving, clean UI, and real-world relevance, making it ideal for college hackathons and evaluations.
-
-👤 Author
-
-Name: Akash
-Project Type: College Hackathon Project
-
-✅ Final Note
-
-This project is easy to run, well-structured, and ready for submission.
+This project is well-structured, easy to run, and ready for hackathon or academic submission.
