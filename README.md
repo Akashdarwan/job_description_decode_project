@@ -1,4 +1,4 @@
-# Skill Gap Detection & Employment Readiness
+# Job Description Decoder and Resume Analyser
 
 ## 📌 Project Overview
 
